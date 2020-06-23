@@ -17,7 +17,6 @@ const scrape = async () => {
   // window.scrollTo(0, document.body.scrollHeight)
 
   const result = await page.evaluate(async () => {
-    debugger
     const resultDatas = []
     const jumps = []
     const jumpDatas = document.querySelectorAll('.pagation .pagation-list .jump')
