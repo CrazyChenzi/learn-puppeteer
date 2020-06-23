@@ -20,7 +20,7 @@ const screenshotPageArea = async (url) => {
   const options = {
     headless: false,
     timeout: 0,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--start-maximized', '--disable-infobars'],
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--start-maximized', '--window-size=1024,600'],
     ignoreHTTPSErrors: true
   }
   const browser = await puppeteer.launch(options)
@@ -46,7 +46,7 @@ const screenshotPageArea = async (url) => {
     }
   })
   console.log(pos)
-  // await browser.close()
+  await browser.close()
 }
 
 screenshotPageArea('https://stackoverrun.com/cn/q/13142025')
