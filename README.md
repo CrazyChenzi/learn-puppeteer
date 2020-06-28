@@ -33,3 +33,5 @@ learning google puppeteer🐱‍👓
 [window.performance](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/performance)
 
 [page.tracing](https://zhaoqize.github.io/puppeteer-api-zh_CN/#?product=Puppeteer&version=v4.0.0&show=api-class-tracing)
+
+[analysis trace](https://github.com/blacklisten/learn-puppeteer/blob/master/analysisTrace/index.js)
